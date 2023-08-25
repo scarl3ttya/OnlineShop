@@ -9,6 +9,7 @@ pillow = "*"
 django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
 celery = "*"
 flower = "*"
+stripe = "*"
 
 [dev-packages]
 
