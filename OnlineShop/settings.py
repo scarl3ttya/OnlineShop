@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
     'phonenumber_field',
 ]
 
@@ -67,6 +68,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'cart.context_processors.cart',
+                
             ],
         },
     },
@@ -139,3 +141,8 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+STRIPE_PUBLISHABLE_KEY = '' # Publishable key
+STRIPE_SECRET_KEY = '' # Secret key
+STRIPE_API_VERSION = ''
+STRIPE_WEBHOOK_SECRET = ''
