@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5b6256212d24937013cfcf112e7bdeebe5d57e3fc9bd5efddf24331d03fa18b0"
+            "sha256": "401d9bae0a4d9be33bb36275020eae2e35aeb9b77983d8a28813e9719c4b5a40"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -184,17 +184,6 @@
             "index": "pypi",
             "version": "==4.2.4"
         },
-        "django-phonenumber-field": {
-            "extras": [
-                "phonenumberslite"
-            ],
-            "hashes": [
-                "sha256:4eaab35fe9a163046dc3a47188771385c56a788e0e11b7bbcc662e1e6b7b9104",
-                "sha256:63721dbdc7424cd594a08d80f550e790cf6e7c903cbc0fb4dd9d86baac8b8c51"
-            ],
-            "index": "pypi",
-            "version": "==7.1.0"
-        },
         "flower": {
             "hashes": [
                 "sha256:5ab717b979530770c16afb48b50d2a98d23c3e9fe39851dcf6bc4d01845a02a0",
@@ -226,13 +215,6 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==5.3.1"
-        },
-        "phonenumberslite": {
-            "hashes": [
-                "sha256:163a18e962e4a29ffd0bd523fa7aa60301bc7aa467bf0383bf3c4dac02097573",
-                "sha256:5d05d0f31f0838b1773c6093925c7c1ab3e98d98747db7c54a9385f8b6df5f71"
-            ],
-            "version": "==8.13.19"
         },
         "pillow": {
             "hashes": [
@@ -353,11 +335,11 @@
         },
         "stripe": {
             "hashes": [
-                "sha256:d8f315c9f2ceb429ad23cd98a50e14cd0e973b3ffbd920f77e5a2da75a94693e",
-                "sha256:f3cf6e619a91d1a49ddde417d444e47435cc472f394f2fa0d82f3d127d8cc17d"
+                "sha256:5a99b50510d74f4ce33bb68961cc073c31df7eb3def90594e8ffe25a5c4dcaea",
+                "sha256:9ad69f1ec57b91d81c39c2c02e3c9445dfc84c06bcbe11d7c1077b40dbbcb67b"
             ],
             "index": "pypi",
-            "version": "==6.0.0"
+            "version": "==6.1.0"
         },
         "tornado": {
             "hashes": [
@@ -375,6 +357,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==6.3.3"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36",
+                "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==4.7.1"
         },
         "tzdata": {
             "hashes": [

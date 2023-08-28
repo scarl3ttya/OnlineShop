@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 django = "*"
 pillow = "*"
-django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
 celery = "*"
 flower = "*"
 stripe = "*"
