@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
-    'phonenumber_field',
+    'coupons.apps.CouponsConfig',
+    
 ]
 
 MIDDLEWARE = [
@@ -133,6 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # App
 ##
 CART_SESSION_ID = 'cart'
+STATIC_ROOT = BASE_DIR / 'static'
 
 ##
 # Dev

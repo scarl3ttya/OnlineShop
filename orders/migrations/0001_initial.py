@@ -2,7 +2,7 @@
 
 from django.db import migrations, models
 import django.db.models.deletion
-import phonenumber_field.modelfields
+
 
 
 class Migration(migrations.Migration):
@@ -21,7 +21,6 @@ class Migration(migrations.Migration):
                 ('first_name', models.CharField(max_length=50)),
                 ('last_name', models.CharField(max_length=50)),
                 ('email', models.EmailField(max_length=254)),
-                ('phone_number', phonenumber_field.modelfields.PhoneNumberField(max_length=128, region=None, unique=True)),
                 ('address', models.CharField(max_length=250)),
                 ('postal_code', models.CharField(max_length=20)),
                 ('city', models.CharField(max_length=100)),

@@ -1,7 +1,7 @@
 from django.db import models
 from shop.models import Product
 from django.conf import settings
-from phonenumber_field.modelfields import PhoneNumberField
+
 
 
 
@@ -9,7 +9,7 @@ class Order(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     email = models.EmailField()
-    phone_number = PhoneNumberField(unique = False, null = False, blank = False)
+    phone_number = models.CharField(max_length=12, null = True, blank = True)
     address = models.CharField(max_length=250)
     postal_code = models.CharField(max_length=20)
     city = models.CharField(max_length=100)
