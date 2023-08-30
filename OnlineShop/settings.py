@@ -136,6 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CART_SESSION_ID = 'cart'
 STATIC_ROOT = BASE_DIR / 'static'
 
+
 ##
 # Dev
 ##
@@ -148,3 +149,7 @@ STRIPE_PUBLISHABLE_KEY = '' # Publishable key
 STRIPE_SECRET_KEY = '' # Secret key
 STRIPE_API_VERSION = ''
 STRIPE_WEBHOOK_SECRET = ''
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
