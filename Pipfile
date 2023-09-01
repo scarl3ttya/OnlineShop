@@ -10,6 +10,9 @@ celery = "*"
 flower = "*"
 stripe = "*"
 redis = "*"
+django-rosetta = "*"
+django-parler = "*"
+django-localflavor = "*"
 
 [dev-packages]
 
